@@ -30,7 +30,7 @@
                 }
             }
         }
-    </script>
+    </script> 
     <style type="text/tailwindcss">
         @tailwind components;
         @tailwindcss utilities;
@@ -131,11 +131,11 @@
                         <img src="./assets/img/ico_azul_polo.png" width="55" height="55">
                         <select name="talla" id="talla" required="">
                             <option value="" disabled selected>Talla:</option>
-                            <option value="Enfermeria">XS</option>
-                            <option value="Farmacia">S</option>
-                            <option value="Fisioterapia">M</option>
-                            <option value="Laboratio">L</option>
-                            <option value="Protesis">XL</option>
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
                         </select>
                     </div>
                 </form>
